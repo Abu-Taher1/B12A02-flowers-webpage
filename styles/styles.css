@@ -48,6 +48,7 @@
 
 
 .hero-description{
+    font-size: 22px;
     font-family: "Inter", sans-serif;
     margin-top: 25px;
     color: #8987A1;
@@ -56,5 +57,67 @@
 .hero-title-clr{
     color: #E95A08;
 }
+
+
+/* main "our plant" section*/
+
+.our-plants-section{
+    margin-top: 120px;
+}
+
+
+.our-plants-title{
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.our-plants-description{
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    color: #8987A1;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box-container-item{
+    margin-bottom: 16px;
+}
+
+
+.box-container-item-info{
+    text-align: center;
+}
+
+.card-p{
+    margin-top: 30px;
+}
+
+
+.card-price{
+    margin: 16px;
+}
+
+.our-plants-title-clr{
+    color: #E95A08;
+    
+}
+
+.card-p{
+     font-family: "Inter", sans-serif;
+}
+
+.card-price{
+    font-family: "Inter", sans-serif;
+}
+
 
 
