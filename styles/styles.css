@@ -17,11 +17,20 @@
 
 /* nav area */
 
+
+
+
 .nav{
     display: flex;
     align-items: center;
-   
+    
+    
 }
+
+.nav-logo{
+    margin-right: 550px;
+}
+
 
 .nav-list{
     list-style: none;
@@ -32,15 +41,19 @@
 .nav-clr-1{
     color: #8987A1;
 }
+
+
 .nav-clr-2{
     color: #8987A1;
 }
+
 
 /* Hero section*/
 
 .hero-section{
     margin-top: 120px;
 }
+
 
 .main-hero{
     display: flex;
@@ -82,6 +95,7 @@
     margin-bottom: 16px;
 }
 
+
 .our-plants-description{
     font-size: 22px;
     font-family: "Inter", sans-serif;
@@ -115,8 +129,7 @@
 }
 
 .our-plants-title-clr{
-    color: #E95A08;
-    
+    color: #E95A08; 
 }
 
 .card-p{
@@ -209,45 +222,7 @@
 
 
 
-/* main part "newsletter section" 
 
-.newsletter-section{
-    
-    margin-top: 7.5rem;
-    margin-bottom: 7.5rem;
-    
-}
-
-.newsletter-section-info{
-    background: url(/assets/news-letter-bg.png);
-    justify-items: center;
-    
-    height: 400px; 
-    
-    
-}
-
-.newsletter-section-1{
-    font-family: "Noto Serif", serif;
-    font-size: 3.125rem;
-    font-weight: bold;
-    color: rgb(255, 254, 254);
-    
-   
-}
-
-.input{
-    width: 500px;
-    padding: 10px;
-}
-
-.btn-primary-2{
-    padding: 10px;
-    border: none;
-    color: white; 
-    background-color: #E95A08; 
-}
-    */
 
     /* input part */
 
@@ -265,7 +240,7 @@
     }
 
     .subscribe-section-section::before {
-        content: ;
+        
         position: absolute;
         inset: 0;
 
@@ -357,6 +332,33 @@
 
 .logo-pics{
     margin-top: -200px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+
+@media (max-width: 390px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .nav-list-item{
+    display: none;
+  }
+    
+  .cart {
+    align-self: flex-end;
+  }
 }
 
 
