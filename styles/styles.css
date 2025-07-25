@@ -51,8 +51,10 @@
 /* Hero section*/
 
 .hero-section{
-    margin-top: 120px;
+    margin-top: 7.5rem;
 }
+
+
 
 
 .main-hero{
@@ -63,7 +65,7 @@
 
 .hero-title{
     font-family: "Noto Serif", serif;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -359,6 +361,104 @@
   .cart {
     align-self: flex-end;
   }
+
+
+  /* her0 section */
+
+  .main-hero{
+    flex-direction: column;
+  }
+
+  .hero-title{
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .hero-description{
+    font-size: 14px;
+  }
+
+  .her0-img{
+    width: 100%;
+    
+  }
+
+
+  /* our plants section */
+
+  .our-plants-title{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .our-plants-description{
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .box-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+
+}
+
+/* trust part */
+
+.trust-part-section{
+    flex-direction: column;
+
+}
+
+.trust-part-img{
+    width: 100%;
+    width: 358px;
+    height: 396px;
+}
+
+.trust-part-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.trust-part-li{
+    font-size: 14px;
+}
+
+
+.latest-deal-title{
+    font-size: 24px ;
+    font-weight: bold;
+}
+
+.latest-deal-description{
+    font-size: 14px;
+    width: 250px;
+}
+
+.gallery-section-box{
+    flex-direction: column;
+}
+
+.gallery-section-left{
+    width: 100%;
+}
+
+.gallery-section-img3{
+    width: 100%;
+}
+
+/* footer*/
+
+.footer{
+    flex-direction: column;
+}
+
+.logo-pics{
+    margin-top:0 ;
+}
+
+
 }
 
 
